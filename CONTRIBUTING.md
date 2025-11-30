@@ -1,17 +1,24 @@
-# Contributing to Awesome Web Security Roadmap
+# Panduan Kontribusi
 
-Terima kasih atas minat Anda untuk berkontribusi! Repositori ini bertujuan untuk menjadi panduan keamanan terlengkap bagi developer Indonesia dan global.
+Terima kasih telah tertarik untuk berkontribusi pada **Awesome Web Security Roadmap**!
 
-## Bagaimana Cara Berkontribusi?
+Repositori ini milik komunitas. Siapapun boleh menambahkan tips, memperbaiki kesalahan, atau memperbarui informasi agar tetap relevan dengan standar keamanan terbaru.
 
-Anda bisa berkontribusi dengan cara:
-1. Menambahkan checklist keamanan baru.
-2. Memperbaiki typo atau kesalahan informasi.
-3. Menambahkan link tools atau referensi belajar yang relevan.
+## Cara Berkontribusi
 
-## Langkah-langkah (Pull Request)
+1. **Fork** repositori ini ke akun GitHub Anda.
+2. Buat **Branch** baru untuk fitur/perbaikan Anda.
+   `git checkout -b feature/nama-fitur-anda`
+3. Lakukan perubahan pada file markdown di folder `docs/` atau `README.md`.
+4. **Commit** perubahan Anda dengan pesan yang jelas.
+   `git commit -m "Menambahkan tips pencegahan CSRF di React"`
+5. **Push** ke branch Anda.
+   `git push origin feature/nama-fitur-anda`
+6. Buka **Pull Request (PR)** di repositori ini.
 
-1. **Fork** repositori ini.
-2. Buat branch baru untuk fitur Anda:
-   ```bash
-   git checkout -b feature/tambah-tips-xss
+## Aturan Penulisan
+- Gunakan Bahasa Indonesia yang baik dan mudah dipahami.
+- Sertakan contoh kode (Code Snippet) jika memungkinkan.
+- Jika mengambil referensi luar, cantumkan sumbernya.
+
+Happy Hacking! 🛡️
