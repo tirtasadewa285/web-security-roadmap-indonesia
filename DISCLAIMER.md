@@ -1,11 +1,13 @@
-# ⚠️ Disclaimer
+# ⚠️ Disclaimer (Penyangkalan)
 
-Informasi, tools, dan panduan yang terdapat dalam repositori ini dibuat untuk **tujuan edukasi dan pengembangan keamanan (defensive security)** semata.
+## Tujuan Edukasi
+Seluruh informasi, kode, dan panduan yang terdapat dalam repositori **Awesome Web Security Roadmap** ini dibuat semata-mata untuk tujuan **edukasi dan pengembangan pertahanan (Defensive Security)**.
 
-Pembuat (Author) dan kontributor tidak bertanggung jawab atas:
-1. Penyalahgunaan informasi ini untuk tindakan ilegal atau merusak.
-2. Kerusakan sistem yang terjadi akibat penerapan tips tanpa pemahaman yang cukup.
+## Batasan Tanggung Jawab
+Penulis dan kontributor **tidak bertanggung jawab** atas:
+1. Kerusakan langsung maupun tidak langsung yang disebabkan oleh penggunaan informasi dalam repositori ini.
+2. Penyalahgunaan teknik yang dijelaskan untuk tindakan ilegal, perusakan sistem, atau akses tanpa izin.
 
-Pastikan Anda memiliki izin (authorization) sebelum melakukan pengujian keamanan (pentesting) pada sistem atau aplikasi milik orang lain.
-
-**Do not be evil.** Gunakan ilmu ini untuk melindungi, bukan merusak.
+## Etika Keamanan
+- Jangan pernah melakukan pengujian keamanan (Penetration Testing) pada sistem yang bukan milik Anda tanpa izin tertulis yang sah.
+- Gunakan ilmu ini untuk membuat internet menjadi tempat yang lebih aman.
