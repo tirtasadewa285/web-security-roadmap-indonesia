@@ -1,5 +1,3 @@
-Berikut adalah isi lengkap untuk file `docs/frontend-react.md`. Silakan copy seluruh blok kode di bawah ini dan paste ke dalam file tersebut.
-
 ````markdown
 # ⚛️ React.js Security Deep Dive
 
