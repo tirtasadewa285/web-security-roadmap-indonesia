@@ -1,13 +1,9 @@
-# ⚛️ React.js Security Best Practices
+# ⚛️ React.js Security Deep Dive
 
-Panduan mendalam untuk mengamankan aplikasi React.
+## 1. Cross-Site Scripting (XSS)
+React cukup aman secara default karena melakukan escaping string. Namun, developer sering membuka celah melalui `dangerouslySetInnerHTML`.
 
-## 1. Mencegah XSS (Cross Site Scripting)
-React secara default melakukan *escaping* pada output, namun ada celah jika menggunakan metode yang salah.
-
-### ❌ Jangan Lakukan Ini (Vulnerable)
-Menggunakan `dangerouslySetInnerHTML` tanpa sanitasi.
-```javascript
-const UserComment = ({ text }) => {
-  return <div dangerouslySetInnerHTML={{ __html: text }} />;
-};
+### 🔴 Kode Berbahaya (Vulnerable)
+```jsx
+// Jika 'userContent' berisi script alert, script itu akan jalan.
+<div dangerouslySetInnerHTML={{ __html: userContent }} />
